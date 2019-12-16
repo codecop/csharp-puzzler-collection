@@ -17,10 +17,10 @@
 
 ## C# Puzzlers
 
-  Puzzlers: An exploration of "traps, pitfalls and corner cases".
-  "A comprehensive catalog of computational conundrums that 
-  will both perplex and please the perspicacious programmer." (Gilad Bracha)
-  Puzzles that shine light into the language's dark, quirky corners.
+    Puzzlers: An exploration of "traps, pitfalls and corner cases".
+    "A comprehensive catalog of computational conundrums that 
+    will both perplex and please the perspicacious programmer." (Gilad Bracha)
+    Puzzles that shine light into the language's dark, quirky corners.
 
 ### Thomas Levesque C# Puzzle
 
