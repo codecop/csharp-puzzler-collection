@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Puzzler
 {
@@ -15,8 +13,6 @@ namespace Puzzler
             Base b = d;
             b.Foo(a: 1, b: 2);
             // a = 2, b = 1
-
-
         }
     }
 

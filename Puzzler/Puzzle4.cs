@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Puzzler
 {
@@ -8,34 +6,16 @@ namespace Puzzler
     {
         public void Run()
         {
-            //var x = new FooBar();
-
-            //bool b = x is FooBar;
-
-            //Console.WriteLine(b);
-
-            //FooBar fooBar = (Baz)x;
-
             Frob<int>();
-
         }
 
         private void Frob<FooBar>()
         {
-
             int x = 1;
-
             bool b = x is FooBar;
-
             Console.WriteLine(b);
-
+            // does not compile
             //FooBar fooBar = (FooBar)x;
-
         }
-    }
-
-    public struct FooBar
-    {
-        public int X;
     }
 }
