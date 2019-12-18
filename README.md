@@ -30,21 +30,20 @@
 
 ### Thomas Levesque C# Puzzle
 
-* https://thomaslevesque.com/2015/03/10/c-puzzle-1/ - Declare and initialize x and y.
-* https://thomaslevesque.com/2015/07/30/c-puzzle-2/ - Declare and initialize x and y.
+1. https://thomaslevesque.com/2015/03/10/c-puzzle-1/ - Declare and initialize x and y.
+2. https://thomaslevesque.com/2015/07/30/c-puzzle-2/ - Declare and initialize x and y.
 
 ### Bob Nystrom named parameters puzzle
 
-* https://twitter.com/munificentbob/status/1027932036118372352
+3. https://twitter.com/munificentbob/status/1027932036118372352
 
 ### Eric Lippert "is" Operator Puzzle
 
-* https://blogs.msdn.microsoft.com/ericlippert/2012/08/23/an-is-operator-puzzle-part-one/
-* https://blogs.msdn.microsoft.com/ericlippert/2012/08/27/an-is-operator-puzzle-part-two/
+4. https://blogs.msdn.microsoft.com/ericlippert/2012/08/23/an-is-operator-puzzle-part-one/ (answer https://blogs.msdn.microsoft.com/ericlippert/2012/08/27/an-is-operator-puzzle-part-two/)
 
 ### Eric Lippert and Neal Gafter C# Initializer Puzzle
 
-* https://hmemcpy.com/2010/07/csharp-puzzle-what-does-this-program-do/ - What is the output?
+5. https://hmemcpy.com/2010/07/csharp-puzzle-what-does-this-program-do/ - What is the output?
 
 ### csharp-puzzlers
 
