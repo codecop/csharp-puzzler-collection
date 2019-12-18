@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Puzzler
 {
@@ -9,12 +7,12 @@ namespace Puzzler
     {
         public void Run()
         {
-            //NewTuple();
-            //IsObjectAnInt();
-            //YieldTest();
-            //DefaultKeyword();
-            //TupleDoesNotRename();
-            //GenericInPatternMatching();
+            NewTuple();
+            IsObjectAnInt();
+            YieldTest();
+            DefaultKeyword();
+            TupleDoesNotRename();
+            GenericInPatternMatching();
         }
 
         private void GenericInPatternMatching()
@@ -47,7 +45,7 @@ namespace Puzzler
             Console.WriteLine(fillValue);
 
             Func<string, bool> whereClause = default;
-            whereClause?.Invoke("haha");
+            whereClause?.Invoke("hello");
         }
 
         private void YieldTest()
@@ -80,22 +78,23 @@ namespace Puzzler
             Console.WriteLine(min);
 
             // classic Tuple is not the same type as new Tuple
+            // (int max, int min) newRange = range;
 
             // creating a new Tuple looks like that
             (string Alpha, string Beta) namedLetters = ("a", "b");
             Console.WriteLine($"{namedLetters.Alpha}, {namedLetters.Beta}");
 
-            // all new Tuples dont care for the name
+            // all new Tuples don't care for the name
             (string a, string b) name2 = namedLetters;
 
-            // anon would need Deconstruct implementation
-            //var anon = new
-            //{
-            //    apple = "apple",
-            //    banana = "banana"
-            //};
+            var anon = new
+            {
+                apple = "apple",
+                banana = "banana"
+            };
 
-            //(string c, string d) = anon;
+            // anon class would need method Deconstruct implementation
+            // (string c, string d) = anon;
         }
     }
 }

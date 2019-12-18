@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <!-- This is 7.x in Dotnet Core 2.x -->
+  </PropertyGroup>
+
 </Project>
